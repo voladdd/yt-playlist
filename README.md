@@ -9,14 +9,15 @@ I am not actively monitoring this but I'll merge any updates that anyone else wa
 - pytube==12.1.0
 
 ## Installation
-1. git clone ``https://github.com/modkhi/yt-playlist.git`` or download the source code
+1. git clone ``https://github.com/voladdd/yt-playlist.git`` or download the source code
 2. navigate to the folder
-3. do ``pip install -r requirements.txt`` to install the package from requirements.txt
-4. do ``py yt-playlist-download.py``
-5. enjoy!
+3. create python virtual environment and activate it:
+``python -m venv .venv ``
+``.venv\Scripts\activate``
+4. do ``pip install -r requirements.txt`` to install the package from requirements.txt
+5. do ``py yt-playlist-download.py``
+6. enjoy!
 
 ## Usage
-- ``Please enter the url of the playlist you wish to download: `` - playlist from youtube only
+- ``Put playlists urls you wish to download at playlists-urls-to-download.txt file: `` - playlist from youtube only
     - e.g. ``https://www.youtube.com/playlist?list=OLAK5uy_lbX9HmX4ZrMSrS5wpDonp-EFy4IrhQeCc``
-- ``Downloads destination (optional): `` - must insert the full path
-    - e.g. ``C:\Users\Username\Folder``
