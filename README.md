@@ -1,7 +1,5 @@
 # yt-playlist
-This script will download the audio of every song in a YouTube playlist, then convert the audio to mp3 or mp4. To use, place it in the folder in which you want to download the playlist.
-
-I am not actively monitoring this but I'll merge any updates that anyone else wants to make.
+This script will download the every song/video in a YouTube playlist.
 
 ## Packages and versions
 - pytube==15.0.0

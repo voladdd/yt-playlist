@@ -25,8 +25,8 @@ def downloadMp4s(links):
         print(video.title, "downloading video...")
         
         # changes: added filter to download mp4 only
-        music = video.streams.filter(progressive=True, file_extension='mp4').first()
-        music.download(output_path=f"downloads\\{playlist.title}")
+        video_opts = video.streams.filter(progressive=True, file_extension='mp4').first()
+        video_opts.download(output_path=f"downloads\\{playlist.title}")
             
         print(video.title, "video downloaded")
 
