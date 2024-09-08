@@ -1,12 +1,11 @@
 # yt-playlist
-A YouTube playlist downloader. Requires [Python 3.11+](https://www.python.org/downloads/), [pytube](https://github.com/nficano/pytube), and [ffmpeg](https://www.ffmpeg.org/) to work.
-
-This script will download the audio of every song in a YouTube playlist, then convert the audio to mp3. To use, place it in the folder in which you want to download the playlist.
+This script will download the audio of every song in a YouTube playlist, then convert the audio to mp3 or mp4. To use, place it in the folder in which you want to download the playlist.
 
 I am not actively monitoring this but I'll merge any updates that anyone else wants to make.
 
 ## Packages and versions
-- pytube==12.1.0
+- pytube==15.0.0
+(currently use pytubefix instead of pytube)
 
 ## Installation
 1. git clone ``https://github.com/voladdd/yt-playlist.git`` or download the source code
